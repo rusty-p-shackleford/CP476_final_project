@@ -1,0 +1,91 @@
+
+/* Full-width inputs */
+input[type=text], input[type=text], input[type=txt] {
+	  width: 23%;
+	  padding: 14px 20px;
+	  margin: 15px;
+	  font-size: medium;
+	  text-align: center;
+	  display: inline-block;
+	  font-family: 'Open Sans';
+	  border: 0;
+	  border-bottom: 1px solid #ccc;
+	  box-sizing: border-box;
+}
+
+/* Set a style for Background*/
+body {
+	background-color: #ffffff;
+}
+
+/* Set a style for all buttons */
+button {
+	border-radius: 999px;
+	box-shadow: #0f0f11 0 10px 20px -10px;
+	color: #FFFFFF;
+	font-family: "open-sans";
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 24px;
+	width: 17%;
+	opacity: 1;
+	padding: 8px 48px;
+	margin: 17px;
+	border: 0;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+	opacity: 0.7;
+}
+
+/* Extra style for the create button (blue) */
+.createbtn {
+	background-color: #15b156;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+	background-color: #e43b49;
+}
+/* Center the avatar image inside this container */
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.sportsball {
+	width: 30%;
+	border-radius: 30%;
+}
+
+/* Containers */
+.container {
+	padding: 1px;
+	display: flex;
+	justify-content: center;
+}
+
+/* Label for dropdown */
+.sportLabel{
+	  width: 8%;
+	  margin: 5px;
+	  font-size: medium;
+	  text-align: center;
+	  font-family: 'Open Sans';
+}
+/* Drop Down Menu */
+.dropdown {
+	  padding: 14px 20px;
+	  width: 23%;
+	  height: auto;
+	  font-size: 1.1em;
+	  /*text-indent: 50%;*/
+	  text-align: center!important;
+	  font-family: 'Open Sans';
+	  border: 0;
+	  box-sizing: border-box;
+      background-color: #ffffff;
+      border-radius: 5px;
+}

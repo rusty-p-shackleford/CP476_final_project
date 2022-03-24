@@ -1,0 +1,154 @@
+.navtop {
+	background-color: #044275;
+	height: 60px;
+	width: 100%;
+	border: 0;
+}
+.navtop div {
+	font-family: 'Open Sans';
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+.navtop div h1, .navtop div a {
+	display: inline-flex;
+	align-items: center;
+}
+.navtop div h1 {
+	flex: 1;
+	font-family: 'Dosis';
+	font-size: 37px;
+	padding: 0;
+	margin: 0;
+	color: #ffffff;
+	font-weight: bold;
+}
+.navtop div h1:hover {
+	color: #ff7b00;
+}
+.navtop div a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #65aef3;
+	font-weight: bold;
+}
+.navtop div a i {
+	padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+	color: #eaebed;
+}
+body.loggedin {
+	background-color: #f3f4f7;
+}
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 22px;
+	border-bottom: 1px solid #e0e0e3;
+	color: #4a536e;
+}
+.content h3 {
+	margin: 25;
+	color: #e43b49;
+	border-bottom: 1px solid #e43b49;
+}
+
+.content > p, .content > div {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 25px 0;
+	padding: 25px;
+	background-color: #fff;
+}
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: 'Open Sans';
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+th {
+    padding: 12px 15px;
+    background-color: #e43b49;
+    color: #ffffff;
+    text-align: center;
+}
+td:hover {
+	color: #e43b49;
+}
+td {
+	padding: 22px 25px;
+	color: #131212;
+	text-align: center;
+}
+tr:nth-of-type(even) {
+	background-color: #eee2e2;
+}
+tr .highlight {
+	background-color: #eee2e2;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-family: 'Open Sans';
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 140px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 100px;
+  width: 70%;
+}
+
+.createGroup {
+  background-color:#e43b49; 
+  color: #ffffff; 
+  font-size: 0.9em;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  border: 2px solid #ffffff;
+}
+
+.createGroup:hover {
+  background-color: #ee7676;
+  color: #ffffff;
+}
+.navtop div img {
+	max-height: 95%;
+	max-width: 95%;
+	padding: 2px;
+}
+.joinbtn {
+	border: 3px solid #2ebb69;
+	background-color: #2ebb69;
+    color: #ffffff;
+	border-radius: 100px;
+    font-size: 0.9em;
+	text-align: center;
+    font-family: 'Open Sans';
+	border-radius: 100px;
+	width: 40%;
+}
+
+.unjoinbtn {
+	border: 3px solid #e43b36;
+	background-color: #e43b36;
+    color: #ffffff;
+	border-radius: 100px;
+    font-size: 0.9em;
+	text-align: center;
+    font-family: 'Open Sans';
+	border-radius: 100px;
+	width: 40%;
+}
