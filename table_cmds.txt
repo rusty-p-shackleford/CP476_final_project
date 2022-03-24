@@ -1,0 +1,33 @@
+
+//These are the commands to manually create the sql tables
+
+
+// Table structure for table `groups`
+CREATE TABLE `groups` (
+  `group_id` int AUTO_INCREMENT,
+  `group_name` varchar(50) NOT NULL,
+  `group_sport` varchar(50) NOT NULL,
+  `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
+  `max_members` int NOT NULL,
+  PRIMARY KEY (`group_id`)
+);
+
+
+// Table structure for table `users`
+CREATE TABLE `users` (
+  `user_id` int AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
+  `email` varchar(255) NOT NULL,
+  `profile_pic_path` varchar(50),
+  `group_id` int DEFAULT NULL,
+  PRIMARY KEY (`user_id`),
+  FOREIGN KEY (`group_id`) REFERENCES `groups`(`group_id`)
+)
+
+
+
+
+
+
