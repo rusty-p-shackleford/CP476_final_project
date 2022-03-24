@@ -1,0 +1,69 @@
+
+  .username{
+	text-align: center;
+}
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email] {
+  width: 23%;
+  padding: 14px 20px;
+  margin: 15px;
+font-size: medium;
+text-align: center;
+  display: inline-block;
+border: 0;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for Background*/
+body{
+	background-color: #ffffff;
+}
+
+/* Set a style for all buttons */
+button {
+background: #5E5DF0;
+border-radius: 999px;
+box-shadow: #0f0f11 0 10px 20px -10px;
+color: #FFFFFF;
+font-family: "open-sans";
+font-size: 19px;
+font-weight: 700;
+line-height: 24px;
+width: 17%;
+opacity: 1;
+padding: 8px 48px;
+margin: 17px;
+border: 0;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.7;
+}
+
+/* Extra style for the registration button (red) */
+.gbkbtn {
+background-color: #9cf78a;
+}
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.sportsball {
+  width: 30%;
+  border-radius: 30%;
+}
+
+/* Containers */
+.container {
+  padding: 1px;
+display: flex;
+justify-content: center;
+}
+

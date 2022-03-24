@@ -1,0 +1,69 @@
+
+  .username{
+	  text-align: center;
+  }
+  /* input looks */
+  input[type=text], input[type=password] {
+	width: 23%;
+	padding: 14px 20px;
+	margin: 15px;
+  font-size: medium;
+  text-align: center;
+	display: inline-block;
+  border: 0;
+	border-bottom: 1px solid #ccc;
+	box-sizing: border-box;
+  }
+
+  /* background looks */
+  body{
+	  background-color: #ffffff;
+  }
+  
+  /* button looks */
+  button {
+  background: #65aef3;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  color: #FFFFFF;
+  font-family: "open-sans";
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 17%;
+  opacity: 1;
+  padding: 8px 48px;
+  margin: 17px;
+  border: 0;
+}
+  
+  /* button hover effect */
+  button:hover {
+	opacity: 0.7;
+  }
+  
+  /* turn registration button green */
+  .regisbtn {
+	background-color: #9cf78a;
+  }
+  
+  /* center image */
+  .imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+  }
+  
+  /* image information */
+  img.sportsball {
+	width: 30%;
+	border-radius: 30%;
+  }
+  
+  /* containers */
+  .container {
+	padding: 1px;
+  display: flex;
+  justify-content: center;
+  }
+  
+  
