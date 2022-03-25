@@ -1,0 +1,172 @@
+.navtop {
+	background-color: #044275;
+	height: 60px;
+	width: 100%;
+	border: 0;
+}
+.navtop div {
+	font-family: 'Open Sans';
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+.navtop div h1, .navtop div a {
+	display: inline-flex;
+	align-items: center;
+}
+.navtop div h1 {
+	flex: 1;
+	font-family: 'Dosis';
+	font-size: 37px;
+	padding: 0;
+	margin: 0;
+	color: #ffffff;
+	font-weight: bold;
+}
+.navtop div h1:hover {
+	color: #ff7b00;
+}
+.navtop div a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #65aef3;
+	font-weight: bold;
+}
+.navtop div a i {
+	padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+	color: #eaebed;
+}
+body.loggedin {
+	background-color: #f3f4f7;
+}
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 22px;
+	border-bottom: 1px solid #e0e0e3;
+	color: #4a536e;
+}
+.content h3 {
+	margin: 25;
+	color: #156bb1;
+	border-bottom: 1px solid #2eacdf;
+}
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: 'Open Sans';
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+th {
+	padding: 12px 15px;
+    background-color: #2eacdf;
+    color: #ffffff;
+    text-align: center;
+}
+td:hover {
+	color: #156bb1;
+}
+td {
+	padding: 22px 25px;
+	color: #131212;
+	text-align: center;
+}
+tr:nth-of-type(even) {
+	background-color: #e2e8ee;
+}
+tr .highlight {
+	background-color: #e2e8ee;
+}
+.releasebtn {
+	border: 3px solid #1573b1;
+	background-color: #1574b1;
+    color: #ffffff;
+	border-radius: 100px;
+    font-size: 1em;
+	text-align: center;
+    font-family: 'Open Sans';
+	border-radius: 100px;
+	width: 40%;
+}
+.releasebtn:hover {
+	background-color: #2eacdf;
+	border: 3px solid #2eacdf;
+	width: 40%;
+}
+.lineup{
+	width: 1000px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+    border-collapse: collapse;
+    margin: 0 0;
+    font-size: 1em;
+    font-family: 'Open Sans';
+    width: 100%;
+
+}
+.lineup th{
+	background-color: #1574b1;
+    box-shadow: 0 0 0 0;
+}
+.lineup tr{
+	background-color: #f3f4f7;	
+    box-shadow: 0 0 0 0;
+}
+.front {
+	box-shadow: none;
+	border-radius: 50%;
+}
+.defense {
+	box-shadow: none;
+}
+.goalies {
+	box-shadow: none;
+}
+.front select{
+	width: 100%;
+	text-align: center;
+    font-size: 1.1em;
+    font-family: 'Open Sans';
+}
+.defense select{
+	width: 70%;
+	text-align: center;
+    font-size: 1.1em;
+    font-family: 'Open Sans';
+}
+.goalies select{
+	width: 40%;
+	text-align: center;
+    font-size: 1.1em;
+    font-family: 'Open Sans';
+}
+.setlinebtn {
+	border: none;
+	color: white;
+	background-color: #15b156;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-family: 'Open Sans';
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 250px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 100px;
+	width: 50%;
+
+}
+.setlinebtn:hover {
+	background-color: #31d475;
+}
